@@ -1,0 +1,63 @@
+body {
+    
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+body > footer {
+    background-color: dodgerblue;
+}
+
+body > footer > p {
+    padding:16px;
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+body > header > nav > ul > li{
+    list-style: none;
+    user-select: none;
+    display: inline;
+}
+
+body > header > nav > ul> li a{
+    color:white;
+    
+  }
+
+body > header > nav > ul {
+    text-align: right;
+}
+
+
+
+
+
+#comment {
+    height: 100px;
+    width: 600px;
+}
+
+#email {
+    width: 150px;
+}
+
+#password {
+    width: 150px;
+}
+
+.comment-image {
+    border-radius: 50%;
+}
+
+body > main > header > section > aside a{
+    color: black;
+    text-decoration: none;
+    
+    
+}
